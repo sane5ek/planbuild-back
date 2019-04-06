@@ -1,0 +1,1214 @@
+[
+  {
+    "model": "pback_main.RequestType",
+    "pk": 1,
+    "fields": {
+      "name": "Adopt"
+    }
+  },
+  {
+    "model": "pback_main.RequestResultType",
+    "pk": 1,
+    "fields": {
+      "name": "True"
+    }
+  },
+  {
+    "model": "pback_main.RequestResultType",
+    "pk": 2,
+    "fields": {
+      "name": "False"
+    }
+  },
+  {
+    "model": "pback_main.Load",
+    "pk": 1,
+    "fields": {
+      "name": "1_1M"
+    }
+  },
+  {
+    "model": "pback_main.Load",
+    "pk": 2,
+    "fields": {
+      "name": "2_4"
+    }
+  },
+  {
+    "model": "pback_main.Load",
+    "pk": 3,
+    "fields": {
+      "name": "1_1MZAO"
+    }
+  },
+  {
+    "model": "pback_main.Load",
+    "pk": 4,
+    "fields": {
+      "name": "2_4ZAO"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 1,
+    "fields": {
+      "name": "Академик-секретарь"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 2,
+    "fields": {
+      "name": "Ведущий специалист"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 3,
+    "fields": {
+      "name": "Заведующий кафедрой"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 4,
+    "fields": {
+      "name": "Зам. академика-секретаря"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 5,
+    "fields": {
+      "name": "Консультант"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 6,
+    "fields": {
+      "name": "Лаборант"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 7,
+    "fields": {
+      "name": "Научный консультант"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 8,
+    "fields": {
+      "name": "Преподаватель"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 9,
+    "fields": {
+      "name": "Редактор"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 10,
+    "fields": {
+      "name": "Советник"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 11,
+    "fields": {
+      "name": "Техник"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 12,
+    "fields": {
+      "name": "Ученый секретарь"
+    }
+  },
+  {
+    "model": "pback_main.Post",
+    "pk": 13,
+    "fields": {
+      "name": "Другая должность"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 1,
+    "fields": {
+      "name": "Аспирант"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 1,
+    "fields": {
+      "name": "Ассистент"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 2,
+    "fields": {
+      "name": "Ведущий научный сотрудник"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 3,
+    "fields": {
+      "name": "Главный научный сотрудник"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 4,
+    "fields": {
+      "name": "Докторант"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 5,
+    "fields": {
+      "name": "Доцент"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 6,
+    "fields": {
+      "name": "Младший научный сотрудник"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 7,
+    "fields": {
+      "name": "Научный сотрудник"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 8,
+    "fields": {
+      "name": "Преподаватель"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 9,
+    "fields": {
+      "name": "Профессор"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 10,
+    "fields": {
+      "name": "Старший преподаватель"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 11,
+    "fields": {
+      "name": "Стажер"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 12,
+    "fields": {
+      "name": "Старший научный сотрудник"
+    }
+  },
+  {
+    "model": "pback_main.ScienceTitle",
+    "pk": 13,
+    "fields": {
+      "name": "Другое научное звание"
+    }
+  },
+  {
+    "model": "pback_main.ScienceDegree",
+    "pk": 1,
+    "fields": {
+      "name": "Доктор наук"
+    }
+  },
+  {
+    "model": "pback_main.ScienceDegree",
+    "pk": 2,
+    "fields": {
+      "name": "Кандидат наук"
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 1,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 2,
+    "fields": {
+      "column_in_load": 5,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 3,
+    "fields": {
+      "column_in_load": 27,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 4,
+    "fields": {
+      "column_in_load": 28,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 5,
+    "fields": {
+      "column_in_load": 29,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 6,
+    "fields": {
+      "column_in_load": 30,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 7,
+    "fields": {
+      "column_in_load": 32,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 8,
+    "fields": {
+      "column_in_load": 33,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 9,
+    "fields": {
+      "column_in_load": 34,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 10,
+    "fields": {
+      "column_in_load": 35,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 1,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 11,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 12,
+    "fields": {
+      "column_in_load": 6,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 13,
+    "fields": {
+      "column_in_load": 41,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 14,
+    "fields": {
+      "column_in_load": 42,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 15,
+    "fields": {
+      "column_in_load": 43,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 16,
+    "fields": {
+      "column_in_load": 44,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 17,
+    "fields": {
+      "column_in_load": 46,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 18,
+    "fields": {
+      "column_in_load": 47,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 19,
+    "fields": {
+      "column_in_load": 48,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 20,
+    "fields": {
+      "column_in_load": 49,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 1,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 21,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 22,
+    "fields": {
+      "column_in_load": 5,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 23,
+    "fields": {
+      "column_in_load": 27,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 24,
+    "fields": {
+      "column_in_load": 28,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 25,
+    "fields": {
+      "column_in_load": 29,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 26,
+    "fields": {
+      "column_in_load": 30,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 27,
+    "fields": {
+      "column_in_load": 32,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 28,
+    "fields": {
+      "column_in_load": 33,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 29,
+    "fields": {
+      "column_in_load": 34,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 30,
+    "fields": {
+      "column_in_load": 35,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 2,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 31,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 32,
+    "fields": {
+      "column_in_load": 6,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 33,
+    "fields": {
+      "column_in_load": 41,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 34,
+    "fields": {
+      "column_in_load": 42,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 35,
+    "fields": {
+      "column_in_load": 43,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 36,
+    "fields": {
+      "column_in_load": 44,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 37,
+    "fields": {
+      "column_in_load": 46,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 38,
+    "fields": {
+      "column_in_load": 47,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 39,
+    "fields": {
+      "column_in_load": 48,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 40,
+    "fields": {
+      "column_in_load": 49,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 2,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 41,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 42,
+    "fields": {
+      "column_in_load": 5,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 43,
+    "fields": {
+      "column_in_load": 24,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 44,
+    "fields": {
+      "column_in_load": 25,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 45,
+    "fields": {
+      "column_in_load": 26,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 46,
+    "fields": {
+      "column_in_load": 0,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 47,
+    "fields": {
+      "column_in_load": 27,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 48,
+    "fields": {
+      "column_in_load": 28,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 49,
+    "fields": {
+      "column_in_load": 29,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 50,
+    "fields": {
+      "column_in_load": 30,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 3,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 51,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 52,
+    "fields": {
+      "column_in_load": 6,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 53,
+    "fields": {
+      "column_in_load": 37,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 54,
+    "fields": {
+      "column_in_load": 38,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 55,
+    "fields": {
+      "column_in_load": 39,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 56,
+    "fields": {
+      "column_in_load": 0,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 57,
+    "fields": {
+      "column_in_load": 40,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 58,
+    "fields": {
+      "column_in_load": 41,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 59,
+    "fields": {
+      "column_in_load": 42,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 60,
+    "fields": {
+      "column_in_load": 43,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 3,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 61,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 62,
+    "fields": {
+      "column_in_load": 5,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 63,
+    "fields": {
+      "column_in_load": 24,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 64,
+    "fields": {
+      "column_in_load": 25,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 65,
+    "fields": {
+      "column_in_load": 26,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 66,
+    "fields": {
+      "column_in_load": 0,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 67,
+    "fields": {
+      "column_in_load": 27,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 68,
+    "fields": {
+      "column_in_load": 28,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 69,
+    "fields": {
+      "column_in_load": 29,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 70,
+    "fields": {
+      "column_in_load": 30,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 4,
+      "load_type": 0
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 71,
+    "fields": {
+      "column_in_load": 4,
+      "column_in_plan": 4,
+      "name_in_load": "Курс",
+      "name_in_plan": "курс обучения",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 72,
+    "fields": {
+      "column_in_load": 6,
+      "column_in_plan": 5,
+      "name_in_load": "Контингент",
+      "name_in_plan": "кол-во студентов",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 73,
+    "fields": {
+      "column_in_load": 37,
+      "column_in_plan": 6,
+      "name_in_load": "Лекций",
+      "name_in_plan": "лекции",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 74,
+    "fields": {
+      "column_in_load": 38,
+      "column_in_plan": 7,
+      "name_in_load": "Практических занятий",
+      "name_in_plan": "практ.(сем.) занятия",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 75,
+    "fields": {
+      "column_in_load": 39,
+      "column_in_plan": 8,
+      "name_in_load": "Лабораторных занятий",
+      "name_in_plan": "лаб. занятия",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 76,
+    "fields": {
+      "column_in_load": 0,
+      "column_in_plan": 9,
+      "name_in_load": "МК",
+      "name_in_plan": "мод.контр.",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 77,
+    "fields": {
+      "column_in_load": 40,
+      "column_in_plan": 10,
+      "name_in_load": "Консультации на протяжении семестра",
+      "name_in_plan": "Консультации семестр",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 78,
+    "fields": {
+      "column_in_load": 41,
+      "column_in_plan": 11,
+      "name_in_load": "Консультации перед экзаменом",
+      "name_in_plan": "Консультации экзамен",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 79,
+    "fields": {
+      "column_in_load": 42,
+      "column_in_plan": 12,
+      "name_in_load": "Зачет",
+      "name_in_plan": "зачеты",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  },
+  {
+    "model": "pback_main.Field",
+    "pk": 80,
+    "fields": {
+      "column_in_load": 43,
+      "column_in_plan": 13,
+      "name_in_load": "Экзамен",
+      "name_in_plan": "экзамены",
+      "type_of_load": 4,
+      "load_type": 1
+    }
+  }
+]

@@ -77,7 +77,7 @@ class SubjectManager(models.Manager):
 class Subject(models.Model):
     semester = models.CharField(max_length=3, blank=False)
     course = models.CharField(max_length=3, blank=False)
-    name = models.CharField(max_length=50, blank=False)
+    name = models.CharField(max_length=100, blank=False)
     row_number = models.IntegerField(null=False)
     owner = models.ForeignKey('pback_auth.User', null=True, default=None, on_delete=models.SET_NULL)
 

@@ -1,18 +1,15 @@
-from django.shortcuts import render
 from django.db.utils import IntegrityError
-from django.http import HttpResponse
 from django.contrib.auth.hashers import check_password
-
-from rest_framework.decorators import api_view, permission_classes, parser_classes
+from django.db.utils import IntegrityError
 from rest_framework import status
-from rest_framework.response import Response
-from rest_framework.views import APIView
-from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
-from rest_framework.parsers import FileUploadParser, MultiPartParser
 from rest_framework.authtoken.models import Token
+from rest_framework.decorators import api_view, permission_classes
+from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.response import Response
 
-from pback_main.models import *
 from pback_auth.models import User
+from pback_main.models import *
+
 
 @api_view(['POST'])
 @permission_classes((IsAuthenticated,))

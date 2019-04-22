@@ -1,20 +1,13 @@
-from django.shortcuts import render
-from django.db.utils import IntegrityError
-from django.utils.encoding import smart_str
 from django.http import HttpResponse
-
-from rest_framework.decorators import api_view, permission_classes, parser_classes
+from django.utils.encoding import smart_str
 from rest_framework import status
+from rest_framework.decorators import api_view, permission_classes, parser_classes
+from rest_framework.parsers import MultiPartParser
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
-from rest_framework.views import APIView
-from rest_framework.permissions import IsAdminUser, AllowAny, IsAuthenticated
-from rest_framework.parsers import FileUploadParser, MultiPartParser
-from rest_framework.authtoken.models import Token
 
-from .models import *
 from pback_auth.models import User
-
-import base64
+from .models import *
 
 
 @api_view(['PUT'])
